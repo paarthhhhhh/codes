@@ -1,0 +1,20 @@
+.footer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+}
+
+
+@media(max-width:374px){
+      .footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 450px;
+      }
+      .footer-content{
+            font-size: 15px;
+            
+      }
+}
